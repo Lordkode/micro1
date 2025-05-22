@@ -8,7 +8,7 @@ pipeline {
         }
         stage("for the fix branch"){
             when{
-                branch 'fix/*'
+                branch 'fix-*'
             }
             steps{
                 sh """
