@@ -1,8 +1,8 @@
-pipeline{
-    agent {label "linux"}
+pipeline {
+    agent { label "linux" }
     stages {
-        stage("Hello"){
-            setps {
+        stage("Hello") {
+            steps {
                 echo "Hello World !"
             }
         }
